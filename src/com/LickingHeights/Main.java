@@ -32,12 +32,17 @@ public class Main {
         else if(60>=number && number>50) {
             System.out.println("Most likely");
         }
+        else if(70>=number && number>60) {
+            System.out.println("Most definitely");
+        }
         else if(80>=number && number>70) {
             System.out.println("Outlook good");
         }
         else if(90>=number && number>80) {
             System.out.println("Most likely not");
         }
+        
+
 
 
 
