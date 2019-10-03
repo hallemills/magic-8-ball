@@ -36,12 +36,14 @@ public class Main {
             System.out.println("Most definitely");
         }
         else if(80>=number && number>70) {
-            System.out.println("Outlook good");
+            System.out.println("My sources say no");
         }
         else if(90>=number && number>80) {
             System.out.println("Most likely not");
         }
-        
+        else if(100>=number && number>90) {
+            System.out.println("Very doubtful");
+        }
 
 
 
